@@ -27,20 +27,20 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --local user.email "lazminutes@gmail.com"
-          git config --local user.name "lazminutes"
+          git config --local user.email "aldymerno173@gmail.com"
+          git config --local user.name "AldiMeirano"
           git add -A
 
-          arr[0]="fix: 😂 this is will be the laz"
-          arr[1]="fix: 😱 this is will be the laz"
-          arr[2]="fix: 👿 this is will be the laz"
-          arr[3]="fix: 🚀 this is will be the laz"
-          arr[4]="fix: 🙏 this is will be the laz"
-          arr[5]="fix: 🙈 this is will be the laz"
-          arr[6]="fix: 🐐 this is will be the laz"
-          arr[7]="fix: 🤖 this is will be the laz"
-          arr[8]="fix: 🟩 this is will be the laz"
-          arr[9]="fix: 👻 this is will be the laz"
+          arr[0]="feat: create microservicee"
+          arr[1]="fix: fix bug in china"
+          arr[2]="feat:  create indonesi green"
+          arr[3]="feat:  create indonesi green"
+          arr[4]="fix: fix bug in china"
+          arr[5]="feat:  create indonesi green"
+          arr[6]="fix: fix bug in china"
+          arr[7]="feat:  create indonesi green"
+          arr[8]="fix: fix bug in china"
+          arr[9]="feat:  create indonesi green"
 
           rand=$[$RANDOM % ${#arr[@]}]
 
